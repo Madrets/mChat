@@ -47,14 +47,9 @@ int main()
     load_ASCII_Art(2);
     std::cout << "Welcome to the Madrets Console App!\n\n";
 
-    //int srv = Server();
     std::thread myThread_1(Server);
     myThread_1.detach();
-    //Server();
 
-    //std::thread myThread_2(Client);
-    //myThread_2.detach();
-    //int cli = Client();
     Client();
 }
 

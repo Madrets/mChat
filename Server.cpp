@@ -84,10 +84,10 @@ void Server() {
     }
 
     // Close sockets
+    std::cout << "mServer: Exiting...\n";
     closesocket(clientSocket);
     closesocket(serverSocket);
     WSACleanup();
-    std::cout << "mServer: Exiting...\n";
 
     //return 0;
 }

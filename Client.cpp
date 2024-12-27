@@ -8,8 +8,8 @@
 
 void Client() {
     std::cout << "mClient: This is the mClient!\n";
-    std::this_thread::sleep_for(std::chrono::seconds(10));
-    std::cout << std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(12));
+    //std::cout << std::endl;
 
 
     WSADATA wsaData;
@@ -51,23 +51,26 @@ void Client() {
     std::cout << "mClient: Connected to server.\n";
 
     // Send a message
+    std::this_thread::sleep_for(std::chrono::seconds(2));
     const char* message = "Hello from client!";
     send(clientSocket, message, strlen(message), 0);
 
     // Receive and print response
+    std::this_thread::sleep_for(std::chrono::seconds(2));
     char buffer[512];
     int bytesReceived = recv(clientSocket, buffer, sizeof(buffer), 0);
     if (bytesReceived > 0) {
         buffer[bytesReceived] = '\0';
         std::cout << "mClient: Server responded with the following...\n";
-        std::cout << "mClient: " << buffer << '\n';
+        std::cout << "mClient: " << buffer << std::endl;
     }
 
     // Close socket
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::cout << "mClient: Exiting...\n";
     closesocket(clientSocket);
     WSACleanup();
-    std::cout << "mClient: Exiting...\n";
-
+    
     // return 0;
 }
 
