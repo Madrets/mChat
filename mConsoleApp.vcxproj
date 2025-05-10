@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chatClient.cpp" />
+    <ClCompile Include="chatServer.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="mConsoleApp.cpp" />
     <ClCompile Include="Server.cpp" />
@@ -137,6 +139,8 @@
     <Text Include="theX_ASCII.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chatClient.h" />
+    <ClInclude Include="chatServer.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="Server.h" />
   </ItemGroup>
