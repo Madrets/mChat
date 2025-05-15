@@ -26,9 +26,9 @@ mChat is a lightweight, multithreaded client-server chat application written in 
 1. Clone this repository.
 2. Open the project in Visual Studio.
 3. Build the solution and run the executable. 
-        - In one terminal, run the server:  
+4. In one terminal, run the server:  
             `mChat.exe server <port>`
-        - In the another terminal (or on a different computer), run the client:  
+5. In the another terminal (or on a different computer), run the client:  
             `mChat.exe client <server_ip> <port>`
 
 ## Disclaimer
