@@ -18,12 +18,6 @@
     <ClCompile Include="mChat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Client.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="chatServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -38,12 +32,6 @@
     <Text Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="chatServer.h">
       <Filter>Header Files</Filter>
     </ClInclude>

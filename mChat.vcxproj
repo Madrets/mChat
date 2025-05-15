@@ -130,9 +130,7 @@
   <ItemGroup>
     <ClCompile Include="chatClient.cpp" />
     <ClCompile Include="chatServer.cpp" />
-    <ClCompile Include="Client.cpp" />
     <ClCompile Include="mChat.cpp" />
-    <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="LICENSE" />
@@ -143,8 +141,6 @@
   <ItemGroup>
     <ClInclude Include="chatClient.h" />
     <ClInclude Include="chatServer.h" />
-    <ClInclude Include="Client.h" />
-    <ClInclude Include="Server.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

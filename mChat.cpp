@@ -190,47 +190,6 @@ int main(int argc, char* argv[]) {
 
 
 /* 
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <thread>
-#include "Server.h"
-#include "Client.h"
-
-void printFileLines(const std::string& fileName) {
-    std::ifstream file(fileName); // Open the file
-
-    if (!file.is_open()) { // Check if the file was successfully opened
-        std::cerr << "Error: Could not open the file " << fileName << std::endl;
-        return;
-    }
-
-    std::string line;
-    while (std::getline(file, line)) { // Read each line from the file
-        std::cout << line << std::endl; // Print the line to the console
-    }
-
-    file.close(); // Close the file
-}
-
-void load_ASCII_Art(int fileCode) {
-
-    if (fileCode == 1) {
-        std::string fileName = "theM_ASCII.txt";
-        printFileLines(fileName);
-    }
-
-    if (fileCode == 2) {
-        std::string fileName = "theM2_ASCII.txt";
-        printFileLines(fileName);
-    }
-
-    if (fileCode == 3) {
-        std::string fileName = "theX_ASCII.txt";
-        printFileLines(fileName);
-    }
-}
-
 int main()
 {
     load_ASCII_Art(2);
