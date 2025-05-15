@@ -1,4 +1,4 @@
-// mConsoleApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// mChat.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -133,7 +133,7 @@ bool isValidPort(const std::string& portStr, int& port) {
 int main(int argc, char* argv[]) {
     std::cout << std::endl;
     load_ASCII_Art(2);
-    std::cout << "Welcome to the Madrets Console Chat App!\n\n";
+    std::cout << "Welcome to the mChat App!\n\n";
 
     if (argc < 3) {
         std::cerr << "Usage for server: " << argv[0] << " server <port>\n";
@@ -234,7 +234,7 @@ void load_ASCII_Art(int fileCode) {
 int main()
 {
     load_ASCII_Art(2);
-    std::cout << "Welcome to the Madrets Console App!\n\n";
+    std::cout << "Welcome to the mChat App!\n\n";
 
     std::thread myThread_1(Server);
     myThread_1.detach();

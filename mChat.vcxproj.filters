@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mConsoleApp.cpp">
+    <ClCompile Include="mChat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Server.cpp">
@@ -35,6 +35,7 @@
     <Text Include="theM_ASCII.txt" />
     <Text Include="theM2_ASCII.txt" />
     <Text Include="theX_ASCII.txt" />
+    <Text Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Server.h">

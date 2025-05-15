@@ -24,6 +24,7 @@
     <ProjectGuid>{8774d022-0d00-44b2-80d4-c59fa52df14e}</ProjectGuid>
     <RootNamespace>mConsoleApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>mChat</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -130,10 +131,11 @@
     <ClCompile Include="chatClient.cpp" />
     <ClCompile Include="chatServer.cpp" />
     <ClCompile Include="Client.cpp" />
-    <ClCompile Include="mConsoleApp.cpp" />
+    <ClCompile Include="mChat.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="LICENSE" />
     <Text Include="theM2_ASCII.txt" />
     <Text Include="theM_ASCII.txt" />
     <Text Include="theX_ASCII.txt" />
