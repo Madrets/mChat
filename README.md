@@ -28,7 +28,7 @@ mChat is a lightweight, multithreaded client-server chat application written in 
 3. Build the solution and run the executable. 
 4. In one terminal, run the server:  
             `mChat.exe server <port>`
-5. In the another terminal (or on a different computer), run the client:  
+5. In another terminal (or on a different computer), run the client:  
             `mChat.exe client <server_ip> <port>`
 
 ## Disclaimer
